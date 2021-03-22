@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mind UI </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://mind-ui-library.netlify.app/style.css"> -->
+</head>
+
+<body>
+    <section>
+        <h2> Avatar </h2>
+        <img class="avatar avatar-image-sm"
+            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+            alt="" />
+        <img class="avatar avatar-image-md"
+            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" />
+        <img class="avatar avatar-image-lg"
+            src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" />
+        <h2> Avatar with Badges </h2>
+        <div class="badge">
+            <img class="avatar avatar-image-md"
+                src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                alt="" />
+            <span class="dot-badge-avatar"></span>
+        </div>
+    </section>
+    <hr />
+    <section>
+        <h2> Alert </h2>
+        <article class="alert-examples">
+            <div class="alert">
+                <i class="fas fa-exclamation-triangle fa-lg"></i>
+                <span class="alert-content">
+                    Warning! You are following some bad practice
+                </span>
+            </div>
+            <div class="alert alert-error">
+                <i class="fas fa-exclamation-circle fa-lg"></i>
+                <span class="alert-content">
+                    Error! Something really wrong has occured
+                </span>
+            </div>
+            <div class="alert alert-sucess">
+                <i class="fas fa-check-circle fa-lg"></i>
+                <span class="alert-content">
+                    Success! You have successfully completed the task
+                </span>
+            </div>
+    </section>
+    <hr />
+    <section>
+        <h2> Badge </h2>
+        <div class="badges">
+            <div class="square-badge"> DEFAULT </div>
+            <div class="square-badge success"> SUCCESS </div>
+            <div class="square-badge removed"> REMOVED </div>
+            <div class="square-badge new"> NEW </div>
+            <div class="square-badge warning"> WARNING </div>
+            <div class="round-badge"> 7 </div>
+            <div class="round-badge success"> 8 </div>
+            <div class="round-badge removed"> 9 </div>
+            <div class="round-badge new"> 10 </div>
+        </div>
+        <h2> Badge on Icons </h2>
+        <div class="badges">
+            <div class="icons">
+                <i class="fas fa-shopping-cart">
+                    <span class="badge-icon"> 6 </span>
+                </i>
+            </div>
+            <div class="icons">
+                <i class="fas fa-shopping-cart">
+                    <span class="badge-icon badge-icon-green"> 2 </span>
+                </i>
+            </div>
+            <div class="icons">
+                <i class="fas fa-envelope">
+                    <span class="badge-icon"> 2 </span>
+                </i>
+            </div>
+            <div class="icons">
+                <i class="fas fa-envelope">
+                    <span class="badge-icon badge-icon-green"> 2 </span>
+                </i>
+            </div>
+            <div class="icons">
+                <i class="far fa-envelope">
+                    <span class="dot-badge"></span>
+                </i>
+            </div>
+            <div class="icons">
+                <i class="far fa-envelope">
+                    <span class="dot-badge badge-icon-green"></span>
+                </i>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <section>
+        <h2> Buttons </h2>
+        <h3> Primary Button</h3>
+        <div class="button-examples">
+            <button type="button" class="button button-primary button-sm">
+                Button
+            </button>
+            <button type="button" class="button button-primary button-md">
+                Button
+            </button>
+            <button type="button" class="button button-primary">
+                Button
+            </button>
+            <button type="button" class="button button-primary button-lg button-link">
+                <a href="https://github.com/Jaynil1611/mind-ui"> Button </a>
+            </button>
+        </div>
+        <h3> Secondary Button</h3>
+        <div class="button-examples">
+            <button type="button" class="button button-secondary button-sm">
+                Button
+            </button>
+            <button type="button" class="button button-secondary button-md">
+                Button
+            </button>
+            <button type="button" class="button button-secondary">
+                Button
+            </button>
+            <button type="button" class="button button-secondary button-lg button-link">
+                <a href="https://github.com/Jaynil1611/mind-ui"> Button </a>
+            </button>
+        </div>
+        <div class="button-examples">
+            <button type="button" class="button button-icon">
+                <i class="fas fa-bell fa-2x"></i>
+            </button>
+            <button type="button" class="button button-icon">
+                <i class="fas fa-bell fa-2x"></i>
+            </button>
+            <button type="button" class="button-floating">
+                +
+            </button>
+            <button type="button" class="button-floating">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </section>
+    <hr />
+    <section>
+        <h2> Cards </h2>
+        <div class="card-examples">
+            <div class="card">
+                <img class="img-responsive"
+                    src="https://images.unsplash.com/photo-1417024225833-10a6ab08aa51?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW5yeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="" />
+                <h2 class="card-heading"> Card Heading </h2>
+                <p class="card-content">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+                    numquam itaque quisquam harum dicta ea, eveniet aperiam eum
+                    repudiandae, sapiente nobis. Natus dignissimos nobis quisquam itaque
+                    impedit eos quos doloribus.
+                </p>
+            </div>
+            <div class="card">
+                <img class="img-responsive"
+                    src="https://images.unsplash.com/photo-1529782891902-61b57cb8041c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Z3JlZW5yeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="" />
+                <h2 class="card-heading"> Card Heading </h2>
+                <p class="card-content">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+                    numquam itaque quisquam harum dicta ea, eveniet aperiam eum
+                    repudiandae, sapiente nobis. Natus dignissimos nobis quisquam itaque
+                    impedit eos quos doloribus.
+                </p>
+            </div>
+        </div>
+        <h3> Card with Badges and Overlay </h3>
+        <div class="card-examples">
+            <div class="card">
+                <div class="card-badge"> NEW </div>
+                <img class="img-responsive"
+                    src="https://images.unsplash.com/photo-1461141346587-763ab02bced9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8c21hcnQlMjB3YXRjaHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="" />
+                <h2 class="card-heading"> Card Heading </h2>
+                <p class="card-content">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+                    numquam itaque quisquam harum dicta ea, eveniet aperiam eum
+                    repudiandae, sapiente nobis. Natus dignissimos nobis quisquam itaque
+                    impedit eos quos doloribus.
+                </p>
+            </div>
+            <div class="card">
+                <img class="img-responsive img-overlay"
+                    src="https://images.unsplash.com/photo-1533035336122-4327d347d2fe?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8cGxhaW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="" />
+                <h2 class="card-heading heading-overlay"> Card Heading </h2>
+                <p class="card-content content-overlay">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
+                    numquam itaque quisquam harum dicta ea, eveniet aperiam eum
+                    repudiandae, sapiente nobis. Natus dignissimos nobis quisquam itaque
+                    impedit eos quos doloribus.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <section>
+        <h2> Image </h2>
+        <div class="image-examples">
+            <div>
+                <img class="img-small"
+                    src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="" />
+            </div>
+            <div>
+                <img class="img-medium"
+                    src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="" />
+            </div>
+            <div>
+                <img class="img-large"
+                    src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="" />
+            </div>
+        </div>
+        <h3> Rounded Image </h3>
+        <div class="image-examples container-center">
+            <div>
+                <img class="img-small img-rounded"
+                    src="https://images.unsplash.com/photo-1518577915332-c2a19f149a75?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvbWFufGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="" />
+            </div>
+            <div>
+                <img class="img-medium img-rounded"
+                    src="https://images.unsplash.com/photo-1518577915332-c2a19f149a75?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvbWFufGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="" />
+            </div>
+    </section>
+    <hr />
+    <section>
+        <h2> Input </h2>
+        <div class="input-examples">
+            <div class="input-box">
+                <label class="label"> Name </label>
+                <input class="input" type="text" placeholder="Enter name" />
+                <p class="input-error"> Full Name should be written*</p>
+            </div>
+            <div class="input-box">
+                <label class="label"> Email </label>
+                <input class="input" type="email" placeholder="Enter email" />
+                <p class="input-error"> Please enter a valid email*</p>
+            </div>
+            <div class="input-box">
+                <label class="label"> Password </label>
+                <input class="input" type="password" placeholder="Enter password" />
+                <p class="input-error"> Password should be 6 chars long*</p>
+            </div>
+        </div>
+    </section>
+    <hr />
+    <section>
+        <h2> List </h2>
+        <div class="list-examples">
+            <div>
+                <ul class="list-group">
+                    <li class="list-items">
+                        Call Of Duty Warzone
+                    </li>
+                    <li class="list-items">
+                        Minecraft
+                    </li>
+                    <li class="list-items">
+                        Animal Crossing: New Horizon
+                    </li>
+                    <li class="list-items">
+                        Grand Theft Auto 5
+                    </li>
+                    <li class="list-items">
+                        League Of Legends
+                    </li>
+                    <li class="list-items">The Last Of Us Part 2</li>
+                </ul>
+            </div>
+        </div>
+        <h3> Stacked List </h3>
+        <div class="list-examples">
+            <ul class="list-group">
+                <li class="list-items">
+                    <img class="avatar" src="https://ui-avatars.com/api/?name=Jaynil+Gaglani" alt="" />
+                    <div class="list-stacked">
+                        <h3> Jaynil</h3>
+                        <p> jaynil@gmail.com </p>
+                    </div>
+                </li>
+                <li class="list-items">
+                    <img class="avatar"
+                        src="https://images.unsplash.com/photo-1518577915332-c2a19f149a75?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvbWFufGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="" />
+                    <div class="list-stacked">
+                        <h3> Wanda</h3>
+                        <p> wanda@gmail.com </p>
+                    </div>
+                </li>
+                <li class="list-items">
+                    <img class="avatar"
+                        src="https://images.unsplash.com/photo-1542909192-2f2241a99c9d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8cG9ydHJhaXR8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60+Gaglani"
+                        alt="" />
+                    <div class="list-stacked">
+                        <h3> John</h3>
+                        <p> john@gmail.com </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <hr />
+    <section>
+        <h2> Navigation </h2>
+        <h3> Left nav</h3>
+        <div class="navigation-examples">
+            <ul class="nav nav-left">
+                <li>
+                    <a class="nav-link" href="#">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        Showcase
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        Pricing
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <h3> Right nav</h3>
+        <div class="navigation-examples">
+            <ul class="nav nav-right">
+                <li>
+                    <a class="nav-link" href="#">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        Showcase
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        Pricing
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <hr />
+    <section>
+        <h2> Modal </h2>
+        <div class="modal-examples">
+            <button id="show-modal" type="button" class="button button-primary">
+                Open Modal
+            </button>
+        </div>
+        <div>
+            <div class="modal">
+                <div class="modal-content">
+                    <h3> Modal Heading </h3>
+                    <p>
+                        Hello, modals can be used as interactive elements to create
+                        informative dialogs with the user.
+                    </p>
+                    <button id="close-modal" type="button" class="close button-primary">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2> Grid </h2>
+        <div>
+            <div class="grid-example-row">
+                <div class="grid-example-col">
+                    <img class="img-responsive"
+                        src="https://images.unsplash.com/photo-1417024225833-10a6ab08aa51?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW5yeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="" />
+                </div>
+                <div class="grid-example-col">
+                    <img class="img-responsive"
+                        src="https://images.unsplash.com/photo-1417024225833-10a6ab08aa51?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW5yeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="" />
+                </div>
+                <div class="grid-example-col">
+                    <img class="img-responsive"
+                        src="https://images.unsplash.com/photo-1417024225833-10a6ab08aa51?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW5yeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="" />
+                </div>
+            </div>
+        </div>
+        <h3> Grid with 2 columns </h3>
+        <div>
+            <div class="grid-example-row-2">
+                <div class="grid-example-col-2">
+                    <img class="img-responsive"
+                        src="https://images.unsplash.com/photo-1417024225833-10a6ab08aa51?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW5yeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="" />
+                </div>
+                <div class="grid-example-col-2">
+                    <img class="img-responsive"
+                        src="https://images.unsplash.com/photo-1417024225833-10a6ab08aa51?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW5yeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2> Typography </h2>
+        <h3> Heading Variants</h3>
+        <div class="text-examples">
+            <div class="h1">"Get curious, Life’s going to get hard." </div>
+            <div class="h2"> "Get curious, Life’s going to get hard." </div>
+            <div class="h3"> "Get curious, Life’s going to get hard." </div>
+            <div class="h4"> "Get curious, Life’s going to get hard." </div>
+            <div class="h5"> "Get curious, Life’s going to get hard." </div>
+            <div class="h6"> "Get curious, Life’s going to get hard." </div>
+        </div>
+        <h3> Text Variant </h3>
+        <div class="text-examples">
+            <div class="subtitle-md spacing">subtitle1. "Love to Code? Join my course with an instant discount of
+                $99."</div>
+            <div class="body-md spacing-body">body1. "Love to Code? Join my course with an instant discount of $99."
+            </div>
+            <div class="subtitle-sm spacing">subtitle2. "Love to Code? Join my course with an instant discount of
+                $99." </div>
+            <div class="body-sm spacing-body">body2. "Love to Code? Join my course with an instant discount of $99."
+            </div>
+        </div>
+        <h3> Centered and Gray Text </h3>
+        <div class="text-examples">
+            <div class="subtitle-md spacing text-center">"Love to Code? Join my course with an instant discount of $99."
+            </div>
+            <div class="subtitle-md spacing text-center text-gray">
+                "Love to Code? Join my course with an instant discount of $99."
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2> Toast </h2>
+        <div class="toast-examples">
+            <div>
+                <button id="show-toast" type="button" class="button button-secondary">
+                    Show Toast
+                </button>
+            </div>
+        </div>
+        <div class="toast">
+            <i class="fas fa-exclamation-triangle fa-lg"></i>
+            <span class="toast-content">
+                Warning! You are following some bad practice
+            </span>
+            <button id="close-toast" type="button" class="toast-close button-primary">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
