@@ -61,7 +61,13 @@ function App() {
                   <Link to={"/"}> Home </Link>
                 </li>
                 <li className="list-item">
-                  <Link to={"/"}> About </Link>
+                  <a
+                    href="https://twitter.com/Jaynil_Gaglani"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i class="fab fa-twitter fa-lg"></i>
+                  </a>
                 </li>
                 <li className="list-item">
                   <a
