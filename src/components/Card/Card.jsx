@@ -19,7 +19,7 @@ function Card(props) {
       <h3> Usage </h3>
       <h3> Cards with Image and Text </h3>
       <div className="card-examples">
-        <div className="card">
+        <div className="card card-width">
           <img className="img-responsive" src={imageList[0]} alt="" />
           <h2 className="card-heading"> Card Heading </h2>
           <p className="card-content">
@@ -29,7 +29,7 @@ function Card(props) {
             impedit eos quos doloribus.
           </p>
         </div>
-        <div className="card">
+        <div className="card card-width">
           <img className="img-responsive" src={imageList[1]} alt="" />
           <h2 className="card-heading"> Card Heading </h2>
           <p className="card-content">
@@ -42,7 +42,7 @@ function Card(props) {
       </div>
       <h3> Card with Badges and Text Overlay </h3>
       <div className="card-examples">
-        <div className="card">
+        <div className="card card-width">
           <div className="card-badge"> NEW </div>
           <img className="img-responsive" src={imageList[3]} alt="" />
           <h2 className="card-heading"> Card Heading </h2>
@@ -53,7 +53,7 @@ function Card(props) {
             impedit eos quos doloribus.
           </p>
         </div>
-        <div className="card">
+        <div className="card card-width">
           <img
             className="img-responsive img-overlay"
             src={imageList[2]}

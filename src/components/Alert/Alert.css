@@ -9,7 +9,7 @@
   margin: 0.8rem 0;
 }
 
-.alert-examples {
+/* .alert-examples {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -34,7 +34,7 @@
 
 .alert-sucess {
   background-color: #3f3d3c;
-}
+} */
 
 @media screen and (max-width: 648px) {
   .alert-examples {

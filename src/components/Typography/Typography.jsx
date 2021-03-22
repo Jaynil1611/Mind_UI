@@ -17,12 +17,12 @@ function Typography(props) {
       <h3> Usage </h3>
       <h3> Heading Variants</h3>
       <div className="text-examples">
-        <div className="h1 spacing"> h1. {headingText} </div>
-        <div className="h2 spacing"> h2. {headingText} </div>
-        <div className="h3 spacing"> h3. {headingText} </div>
-        <div className="h4 spacing"> h4. {headingText} </div>
-        <div className="h5 spacing"> h5. {headingText} </div>
-        <div className="h6 spacing"> h6. {headingText} </div>
+        <div className="h1"> h1. {headingText} </div>
+        <div className="h2"> h2. {headingText} </div>
+        <div className="h3"> h3. {headingText} </div>
+        <div className="h4"> h4. {headingText} </div>
+        <div className="h5"> h5. {headingText} </div>
+        <div className="h6"> h6. {headingText} </div>
       </div>
       <h3> Text Variant </h3>
       <div className="text-examples">

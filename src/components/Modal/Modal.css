@@ -9,7 +9,11 @@
   margin: 0.8rem 0;
 }
 
-.modal-examples {
+.modal {
+  display: flex;
+}
+
+/* .modal-examples {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -48,4 +52,4 @@
   border: 2px solid var(--accent-color);
   outline: none;
   border-radius: 0.5rem;
-}
+} */

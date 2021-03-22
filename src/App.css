@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://mind-ui-library.netlify.app/style.css");
 
-:root {
+/* :root {
   --background-color: #1a202c;
   --accent-color: #fd7014;
   --text-color: rgba(255, 255, 255, 0.92);
@@ -24,8 +25,7 @@ body {
   background-color: var(--background-color);
   font-family: "Open Sans", sans-serif;
   color: var(--text-color);
-  /* text-align: center; */
-}
+} */
 
 .grid-row {
   display: grid;
@@ -81,12 +81,6 @@ body {
 
 .list-style > li > a {
   text-decoration: none;
-  color: var(--text-color);
-}
-
-.line-division {
-  height: 100%;
-  border-left: 6px solid var(--text-color);
   color: var(--text-color);
 }
 

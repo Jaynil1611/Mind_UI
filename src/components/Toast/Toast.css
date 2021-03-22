@@ -11,16 +11,6 @@
   margin: 0.8rem 0;
 }
 
-.toast-examples {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 0%;
-  flex-wrap: wrap;
-  padding: 1rem;
-  border: 1px solid var(--text-color);
-  border-radius: 1rem;
-}
-
 .toast-wrapper {
   display: flex;
   justify-content: center;
@@ -31,10 +21,19 @@
   position: fixed;
   bottom: 3rem;
   align-items: center;
-  z-index: 0;
   padding: 1rem;
   background-color: var(--secondary-color);
   transition: all 0.2s ease 0s;
+}
+
+/* .toast-examples {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0%;
+  flex-wrap: wrap;
+  padding: 1rem;
+  border: 1px solid var(--text-color);
+  border-radius: 1rem;
 }
 
 .toast-content {
@@ -54,7 +53,7 @@
   justify-content: center;
   align-items: center;
   font-weight: 500;
-}
+} */
 
 @media screen and (max-width: 648px) {
   .toast {

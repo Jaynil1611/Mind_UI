@@ -11,12 +11,11 @@
   margin: 0.8rem 0;
 }
 
-.input-examples {
+/* .input-examples {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   padding: 1rem;
-  /* width: 50%; */
   border: 1px solid var(--text-color);
   border-radius: 1rem;
 }
@@ -72,4 +71,4 @@
   left: 1rem;
   font-size: 0.8rem;
   color: var(--accent-color);
-}
+} */

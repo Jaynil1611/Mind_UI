@@ -70,7 +70,7 @@ function Avatar(props) {
       <h3> Usage </h3>
       <div className="avatar-images">
         {imageList.map(({ id, src }) => (
-          <img key={id} className="avatar"src={src} alt="" />
+          <img key={id} className="avatar" src={src} alt="" />
         ))}
       </div>
       <h3> Avatar Sizes </h3>
@@ -99,7 +99,7 @@ function Avatar(props) {
         {imageList.map(({ id, src }) => (
           <div key={id} className="badge">
             <img className="avatar" key={id} src={src} alt="" />
-            <span className="dot-badge-avatar"></span>
+            <span className="dot-badge-avatar position"></span>
           </div>
         ))}
       </div>

@@ -15,7 +15,7 @@ function Home(props) {
         developers to build beautiful web apps with speed. Copy the below code
         to use Mind UI in your project.
       </div>
-      <div>
+      <div className="button-home">
         <button
           type="button"
           className="button button-primary button-link subtitle-md"

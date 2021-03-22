@@ -18,7 +18,7 @@
   flex-direction: column;
 }
 
-.button-link:hover {
+.button-home > .button-link:hover {
   text-decoration: none;
 }
 

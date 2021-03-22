@@ -65,7 +65,7 @@ function App() {
                 </li>
                 <li className="list-item">
                   <a
-                    href="https://github.com/Jaynil1611/mind-ui"
+                    href="https://github.com/Jaynil1611/Mind_UI"
                     target="_blank"
                     rel="noreferrer"
                   >

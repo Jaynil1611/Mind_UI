@@ -23,7 +23,7 @@
   justify-content: flex-start;
   padding: 1.5rem;
 }
-
+/* 
 .avatar {
   width: 5rem;
   height: 5rem;
@@ -57,12 +57,15 @@
 
 .dot-badge-avatar {
   position: absolute;
-  top: 3.8rem;
-  left: 3.5rem;
   height: 12px;
   padding: 0;
   min-width: 12px;
   border: 2.5px solid white;
   border-radius: 10px;
   background-color: var(--accent-color);
+} */
+
+.dot-badge-avatar.position {
+  top: 3.8rem;
+  left: 3.5rem;
 }

@@ -1,15 +1,15 @@
 .navigation-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.navigation-container > *{
-    margin: 0.8rem 0;
+.navigation-container > * {
+  margin: 0.8rem 0;
 }
 
-.navigation-examples {
+/* .navigation-examples {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -42,4 +42,4 @@
 
 .nav-link:hover{
     text-decoration: underline;
-}
+} */
