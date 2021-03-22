@@ -1,0 +1,36 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.home-container > * {
+  margin: 1rem 0;
+}
+
+.home-container .text-primary {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.button-link:hover {
+  text-decoration: none;
+}
+
+.carbon-embed {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.carbon-embed > iframe {
+  display: flex;
+  border: 0;
+  width: 100%;
+  height: 12rem;
+}

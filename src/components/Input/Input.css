@@ -1,0 +1,75 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.input-container > * {
+  margin: 0.8rem 0;
+}
+
+.input-examples {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1rem;
+  /* width: 50%; */
+  border: 1px solid var(--text-color);
+  border-radius: 1rem;
+}
+
+.input-box {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  top: 0;
+  margin: 2rem;
+  border: none;
+  background-color: var(--secondary-color);
+}
+
+.input {
+  display: flex;
+  position: relative;
+  height: 1rem;
+  outline: none;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: text;
+  color: var(--text-color);
+  border: none;
+  border-bottom: 2px solid transparent;
+  background-color: inherit;
+  transition: 0.3s all ease;
+}
+
+.input:focus {
+  border-bottom: 2px solid var(--text-color);
+  box-shadow: var(--secondary-color) 0px 4px 4px;
+}
+
+.label {
+  position: absolute;
+  bottom: 2.6rem;
+  z-index: 2;
+  left: 0.6rem;
+  color: var(--accent-color);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0 0.5rem;
+  background-color: var(--text-color);
+}
+
+.input-error {
+  display: flex;
+  position: absolute;
+  top: 3.5rem;
+  left: 1rem;
+  font-size: 0.8rem;
+  color: var(--accent-color);
+}

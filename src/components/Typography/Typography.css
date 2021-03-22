@@ -1,0 +1,80 @@
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.text-container > * {
+  margin: 0.8rem 0;
+}
+
+.text-examples {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid var(--text-color);
+  border-radius: 1rem;
+}
+
+.h1 {
+  font-size: 4rem;
+}
+
+.h2 {
+  font-size: 3.5rem;
+}
+
+.h3 {
+  font-size: 3rem;
+}
+
+.h4 {
+  font-size: 2.5rem;
+}
+
+.h5 {
+  font-size: 2rem;
+}
+
+.h6 {
+  font-size: 1.5rem;
+}
+
+.subtitle-md {
+  font-size: 1.2rem;
+}
+
+.subtitle-sm {
+  font-size: 1rem;
+}
+
+.body-md {
+  font-size: 0.8rem;
+}
+
+.body-sm {
+  font-size: 0.7rem;
+}
+
+.spacing-body {
+  padding: 0 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-gray {
+  color: #6B7280;
+}
+
+.text-primary {
+  color: var(--accent-color);
+}
+
+.text-bold {
+  font-weight: bold;
+}

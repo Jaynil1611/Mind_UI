@@ -1,0 +1,45 @@
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.navigation-container > *{
+    margin: 0.8rem 0;
+}
+
+.navigation-examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid var(--text-color);
+    border-radius: 1rem;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 100%;
+    justify-content: flex-start;    
+}
+
+.nav-left {
+    justify-content: flex-start;
+}
+
+.nav-right {
+    justify-content: flex-end;
+}
+
+.nav-link {
+    padding: 1rem 1.5rem;
+    color: var(--accent-color);
+    text-decoration: none;    
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
