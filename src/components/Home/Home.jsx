@@ -27,7 +27,6 @@ function Home(props) {
       </div>
       <div className="carbon-embed">
         <iframe
-        className="embed-code"
           src="https://carbon.now.sh/embed/6ncLoj4c3870i144dPmf"
           title="link"
           scrolling="no"
