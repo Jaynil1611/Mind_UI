@@ -747,7 +747,7 @@ section > * {
 }
 
 .text-gray {
-  color: var(--secondary-color);
+  color: #6b7280;
 }
 
 .text-primary {
