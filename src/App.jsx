@@ -41,7 +41,7 @@ const routes = [
     component: <Typography />,
   },
   { id: v4(), path: "/toast", name: "Toast", component: <Toast /> },
-  { id: v4(), path: "/", name: "Home", component: <Home /> },
+  { id: v4(), path: "/", name: "", component: <Home /> },
 ];
 
 function App() {
@@ -55,7 +55,9 @@ function App() {
         <div className="grid-row">
           <div className="heading">
             <div className="intro">
-              <h1 className="heading-text">Mind UI Documentation</h1>
+              <h1 className="heading-text">
+                <Link to={"/"}>Mind UI </Link> Documentation
+              </h1>
               <ul className="list-style navbar">
                 <li className="list-item">
                   <Link to={"/"}> Home </Link>
@@ -66,7 +68,7 @@ function App() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <i class="fab fa-twitter fa-lg"></i>
+                    <i className="fab fa-twitter fa-lg"></i>
                   </a>
                 </li>
                 <li className="list-item">
@@ -87,13 +89,15 @@ function App() {
             className={`${showMenu ? "mobile-navbar" : "grid-col left-nav"}`}
           >
             <ul className={`list-style`}>
-              {routes.map(({ id, path, name }) => (
-                <li className="list-item" key={id}>
-                  <Link to={path} onClick={closeMenu}>
-                    {name}
-                  </Link>
-                </li>
-              ))}
+              {routes
+                .filter((route) => route.name !== "")
+                .map(({ id, path, name }) => (
+                  <li className="list-item" key={id}>
+                    <Link to={path} onClick={closeMenu}>
+                      {name}
+                    </Link>
+                  </li>
+                ))}
             </ul>
           </div>
           <div className="mobile-menu" onClick={handleClick}>

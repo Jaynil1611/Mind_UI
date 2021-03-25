@@ -10,7 +10,7 @@ function Home(props) {
         Build blazingly fast web apps with
         <span className="text-primary"> Mind UI </span>
       </div>
-      <div className="subtitle-md text-gray">
+      <div className="subtitle-md">
         Mind UI is a lightweight and modular component library which helps
         developers to build beautiful web apps with speed. Copy the below code
         to use Mind UI in your project.

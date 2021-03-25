@@ -5,7 +5,7 @@ import "../List/List.css";
 function Navigation(props) {
   return (
     <div className="navigation-container">
-      <h3> Nvaigation </h3>
+      <h3> Navigation </h3>
       <p>
         Navigation component is used as a medium to jump between different pages
         or components of a website.

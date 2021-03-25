@@ -93,6 +93,11 @@ body {
   height: calc(((100vh - 1.5rem) - 84px) - 42px);
 }
 
+.heading-text > * {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
 a {
   color: var(--accent-color);
 }
@@ -135,7 +140,16 @@ a {
     display: flex;
     position: fixed;
     top: 0.5rem;
+    padding-left: 1rem;
     z-index: 13;
+  }
+
+  .list-style {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    flex: 1;
+    justify-content: space-around;
   }
 
   .navbar {
