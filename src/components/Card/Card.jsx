@@ -40,7 +40,7 @@ function Card(props) {
           </p>
         </div>
       </div>
-      <h3> Card with Badges and Text Overlay </h3>
+      <h3> Card with Badges </h3>
       <div className="card-examples">
         <div className="card card-width">
           <div className="card-badge"> NEW </div>
@@ -52,21 +52,7 @@ function Card(props) {
             repudiandae, sapiente nobis. Natus dignissimos nobis quisquam itaque
             impedit eos quos doloribus.
           </p>
-        </div>
-        <div className="card card-width">
-          <img
-            className="img-responsive img-overlay"
-            src={imageList[2]}
-            alt=""
-          />
-          <h2 className="card-heading heading-overlay"> Card Heading </h2>
-          <p className="card-content content-overlay">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
-            numquam itaque quisquam harum dicta ea, eveniet aperiam eum
-            repudiandae, sapiente nobis. Natus dignissimos nobis quisquam itaque
-            impedit eos quos doloribus.
-          </p>
-        </div>
+        </div> 
       </div>
       <h3> Horizontal Cards </h3>
       <div className="card-examples">

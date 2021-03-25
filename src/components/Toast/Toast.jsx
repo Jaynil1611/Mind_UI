@@ -25,7 +25,7 @@ function Toast(props) {
 
   const handleToastClick = () => {
     setShowToast(true);
-    // setTimeout(() => setShowToast(false), 5000);
+    setTimeout(() => setShowToast(false), 5000);
   };
 
   return (

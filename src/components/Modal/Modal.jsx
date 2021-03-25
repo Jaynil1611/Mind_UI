@@ -28,7 +28,7 @@ function Modal(props) {
 
   const handleModalClick = () => {
     setShowModal(true);
-    // setTimeout(() => setShowModal(false), 5000);
+    setTimeout(() => setShowModal(false), 5000);
   };
 
   const handleModalClose = (e) => {
