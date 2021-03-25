@@ -13,6 +13,7 @@
   --hover-color-primary: #ed5f02;
   --hover-color-secondary: #2a2d33;
   --success-color: rgb(154, 230, 180);
+  --invert-text-color: #2d3748;
 }
 
 * {
@@ -114,7 +115,7 @@ section > * {
 
 .alert-success {
   background-color: var(--success-color);
-  color: black;
+  color: var(--invert-text-color);
 }
 
 /* Badge */
@@ -274,7 +275,7 @@ section > * {
 
 .button-icon {
   padding: 0.5rem;
-  color: black;
+  color: var(--invert-text-color);
 }
 
 .button-floating {
