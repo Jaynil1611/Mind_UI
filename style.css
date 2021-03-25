@@ -652,6 +652,8 @@ section > * {
   padding: 0.5rem;
   border: 2px solid var(--accent-color);
   outline: none;
+  cursor: pointer;
+  color: inherit;
   border-radius: 0.5rem;
 }
 
@@ -797,9 +799,24 @@ section > * {
   font-size: 1rem;
   color: var(--text-color);
   outline: none;
+  cursor: pointer;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 500;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 648px) {
+  /* Alert */
+
+  .alert-examples {
+    width: 100%;
+  }
+
+  .button-examples {
+    width: initial;
+  }
 }
