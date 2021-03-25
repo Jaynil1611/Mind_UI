@@ -792,12 +792,17 @@ section > * {
 
 @media screen and (max-width: 648px) {
   /* Alert */
-
   .alert-examples {
     width: 100%;
   }
 
+  /* Button */
   .button-examples {
     width: initial;
+  }
+
+  /* Card */
+  .card.card.card-width {
+    flex-basis: 100%;
   }
 }
