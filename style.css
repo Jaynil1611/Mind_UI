@@ -12,6 +12,7 @@
   --focus-color-primary: #993d01;
   --hover-color-primary: #ed5f02;
   --hover-color-secondary: #2a2d33;
+  --success-color: rgb(154, 230, 180);
 }
 
 * {
@@ -111,8 +112,9 @@ section > * {
   background-color: var(--accent-color);
 }
 
-.alert-sucess {
-  background-color: #3f3d3c;
+.alert-success {
+  background-color: var(--success-color);
+  color: black;
 }
 
 /* Badge */
@@ -128,7 +130,7 @@ section > * {
 
 .square-badge {
   background-color: var(--transparent-color);
-  padding: 0 0.5rem;
+  padding: 0.5rem;
   font-weight: bold;
 }
 
@@ -149,7 +151,7 @@ section > * {
 }
 
 .success {
-  background-color: var(--text-color);
+  background-color: var(--success-color);
   color: var(--secondary-color);
 }
 
@@ -280,6 +282,8 @@ section > * {
   font-size: 2rem;
   width: 3rem;
   height: 3rem;
+  cursor: pointer;
+  outline: none;
   color: white;
   box-sizing: border-box;
   border-radius: 100%;
