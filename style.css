@@ -475,21 +475,17 @@ section > * {
   padding: 1rem;
   width: 100%;
   font-size: 1rem;
-  font-weight: 500;
   cursor: text;
+  border: 1px solid var(--secondary-color);
   color: var(--text-color);
-  border: none;
-  border-bottom: 2px solid transparent;
-  background-color: inherit;
-  transition: 0.3s all ease;
+  background-color: var(--secondary-color);
 }
 
 .input:focus {
-  border-bottom: 2px solid var(--text-color);
-  box-shadow: var(--secondary-color) 0px 4px 4px;
+  border: 1px solid var(--light-color);
 }
 
-.label {
+.input-label {
   position: absolute;
   bottom: 2.6rem;
   z-index: 2;
@@ -498,7 +494,7 @@ section > * {
   font-size: 0.8rem;
   font-weight: 500;
   padding: 0 0.5rem;
-  background-color: var(--text-color);
+  background-color: var(--light-color);
 }
 
 .input-error {
