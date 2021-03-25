@@ -1,0 +1,72 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list-container > * {
+  margin: 0.8rem 0;
+}
+
+/* .list-examples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 1rem;
+}
+
+.list-group {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  margin: 0.5rem;
+  list-style: none;
+  border: 1px solid var(--light-color);
+  border-bottom: none;
+  border-radius: 0.5rem;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.list-items.border {
+  border-bottom: 1px solid var(--text-color);
+}
+
+.active {
+  display: flex;
+  background-color: var(--accent-color);
+}
+
+.disabled {
+  background-color: var(--secondary-color);
+  color: gray;
+  pointer-events: none;
+}
+
+.list-stacked {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.inline-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  padding-inline-start: 0;
+}
+
+.list-spacing {
+  padding: 0.2rem;
+} */
