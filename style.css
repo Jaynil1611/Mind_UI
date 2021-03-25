@@ -361,25 +361,9 @@ section > * {
   z-index: 2;
   top: 4rem;
   background-color: var(--transparent-color);
-  padding: 0 0.5rem;
+  padding: 0.5rem;
   font-weight: bold;
   color: var(--accent-color);
-}
-
-.heading-overlay {
-  position: absolute;
-  z-index: 2;
-  top: 4rem;
-}
-
-.content-overlay {
-  position: absolute;
-  top: 9rem;
-  z-index: 0;
-}
-
-.img-overlay {
-  height: 420px;
 }
 
 .card-horizontal {
@@ -393,7 +377,7 @@ section > * {
 .img-horizontal {
   display: flex;
   width: 50%;
-  height: 50vh;
+  height: auto;
 }
 
 .card-horizontal-content {
