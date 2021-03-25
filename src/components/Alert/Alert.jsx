@@ -23,7 +23,7 @@ function Alert(props) {
             Error! Something really wrong has occured
           </span>
         </div>
-        <div className="alert alert-sucess">
+        <div className="alert alert-success">
           <i className="fas fa-check-circle fa-lg"></i>
           <span className="alert-content">
             Success! You have successfully completed the task
