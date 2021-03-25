@@ -100,9 +100,3 @@
   justify-content: flex-start;
   box-shadow: none;
 } */
-
-@media screen and (max-width: 648px) {
-  .card.card.card-width {
-    flex-basis: 100%;
-  }
-}
