@@ -9,11 +9,6 @@
   margin: 0.8rem 0;
 }
 
-.button-container a {
-  color: var(--text-color);
-  text-decoration: none;
-}
-
 /* .button-examples {
   display: flex;
   flex-wrap: wrap;
