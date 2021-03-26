@@ -118,7 +118,7 @@ section > * {
 }
 
 /* Badge */
-.badges {
+.badge-examples {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
@@ -128,47 +128,47 @@ section > * {
   align-items: center;
 }
 
-.square-badge {
+.badge {
   background-color: var(--transparent-color);
   padding: 0.5rem;
   font-weight: bold;
 }
 
-.round-badge {
+.badge--round {
   display: flex;
   border-radius: 50%;
   background-color: var(--transparent-color);
   padding: 0.5rem 1rem;
 }
 
-.removed {
+.badge--removed {
   background-color: var(--accent-color);
   color: var(--secondary-color);
 }
 
-.new {
+.badge--new {
   color: var(--accent-color);
 }
 
-.success {
+.badge--success {
   background-color: var(--success-color);
   color: var(--secondary-color);
 }
 
-.warning {
+.badge--warning {
   background-color: inherit;
   border: 2px solid var(--secondary-color);
   color: #fed6bc;
 }
 
-.icons {
+.badge__icons-examples {
   position: relative;
   top: 0;
   font-size: 2rem;
   margin: 0 1rem;
 }
 
-.badge-icon {
+.badge__icon {
   position: absolute;
   top: -0.5rem;
   display: flex;
@@ -185,10 +185,10 @@ section > * {
   background-color: var(--accent-color);
 }
 
-.dot-badge {
+.badge__dot {
   position: absolute;
-  top: -0.3rem;
-  left: 1.9rem;
+  top: 0.1rem;
+  left: 1.8rem;
   height: 9px;
   padding: 0;
   min-width: 9px;
@@ -196,7 +196,7 @@ section > * {
   background-color: var(--accent-color);
 }
 
-.badge-icon-green {
+.badge__icon--gray {
   background-color: var(--secondary-color);
 }
 
