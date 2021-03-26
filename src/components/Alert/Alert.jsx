@@ -40,7 +40,9 @@ function Alert(props) {
       <p>
         The icons used above are taken from&nbsp;
         <span>
-          <a href="https://fontawesome.com/">FontAwesome Icons</a>
+          <a className="anchor" href="https://fontawesome.com/">
+            FontAwesome Icons
+          </a>
         </span>
       </p>
     </div>

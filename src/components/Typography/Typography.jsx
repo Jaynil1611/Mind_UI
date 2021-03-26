@@ -26,15 +26,15 @@ function Typography(props) {
       </div>
       <h3> Text Variant </h3>
       <div className="text-examples">
-        <div className="subtitle-md spacing">subtitle1. {subtitle}</div>
-        <div className="body-md spacing-body">body1. {bodyText}</div>
-        <div className="subtitle-sm spacing">subtitle2. {subtitle}</div>
-        <div className="body-sm spacing-body">body2. {bodyText}</div>
+        <div className="subtitle--md spacing">subtitle1. {subtitle}</div>
+        <div className="body-md spacing--body">body1. {bodyText}</div>
+        <div className="subtitle--sm spacing">subtitle2. {subtitle}</div>
+        <div className="body-sm spacing--body">body2. {bodyText}</div>
       </div>
       <h3> Centered and Gray Text </h3>
       <div className="text-examples">
-        <div className="subtitle-md spacing text-center">{subtitle}</div>
-        <div className="subtitle-md spacing text-center text-gray">
+        <div className="subtitle--md spacing text--center">{subtitle}</div>
+        <div className="subtitle--md spacing text--center text--gray">
           {subtitle}
         </div>
       </div>

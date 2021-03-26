@@ -103,7 +103,7 @@ function Avatar(props) {
       </p>
       <div className="avatar-images ">
         {imageList.map(({ id, src }) => (
-          <div key={id} className="badge">
+          <div key={id} className="avatar__badge-container">
             <img className="avatar" key={id} src={src} alt="" />
             <span className="avatar__badge alignment"></span>
           </div>
@@ -113,7 +113,9 @@ function Avatar(props) {
       <p>
         The images used for showing the Avatar are obtained from&nbsp;
         <span>
-          <a href="https://unsplash.com/">Unsplash.com</a>
+          <a className="anchor" href="https://unsplash.com/">
+            Unsplash.com
+          </a>
         </span>
         .
       </p>

@@ -16,25 +16,29 @@ export const StarRating = ({
 
   return (
     <>
-      <ul className="inline-list">
+      <ul className="list--inline">
         {[...Array(count)].map((star, index) => {
           index += 1;
           return (
             <li
               key={index}
-              className={`list-spacing ${
-                index <= (hover || active) ? `${iconType}-active` : ""
-              } ${readOnly ? "read-only" : ""} ${disabled ? "disabled" : ""}`}
+              className={`list--spacing ${
+                index <= (hover || active)
+                  ? `${iconType}__icon--active`
+                  : ""
+              } ${readOnly ? "rating--read-only" : ""} ${
+                disabled ? "rating--disabled" : ""
+              }`}
               onClick={() => setActive(index)}
               onMouseEnter={() => setHover(index)}
               onMouseLeave={() => setHover(active)}
             >
-              <i className={`fas fa-${iconType} fa-lg star-icon`}></i>
+              <i className={`fas fa-${iconType} fa-lg star__icon`}></i>
             </li>
           );
         })}
         {showFeedback && (
-          <li className="feedback">{feedback[hover || active]}</li>
+          <li className="rating--feedback">{feedback[hover || active]}</li>
         )}
       </ul>
     </>

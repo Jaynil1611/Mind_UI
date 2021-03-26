@@ -5,7 +5,7 @@ import "../Button/Button.css";
 const ModalContent = ({ setShowModal, handleModalClose }) => {
   return (
     <div className="modal" onClick={handleModalClose}>
-      <div className="modal-content">
+      <div className="modal__content">
         <h3> Modal Heading </h3>
         <p>
           Hello, modals can be used as interactive elements to create
@@ -13,7 +13,7 @@ const ModalContent = ({ setShowModal, handleModalClose }) => {
         </p>
         <button
           type="button"
-          className="close button-primary"
+          className="modal--close button--primary"
           onClick={() => setShowModal(false)}
         >
           Close
@@ -45,7 +45,7 @@ function Modal(props) {
       <div className="modal-examples">
         <button
           type="button"
-          className="button button-primary"
+          className="button button--primary"
           onClick={handleModalClick}
         >
           Open Modal

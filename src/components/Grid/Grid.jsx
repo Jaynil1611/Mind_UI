@@ -11,26 +11,26 @@ function Grid(props) {
       <h3> Usage </h3>
       <h3> Grid with 3 columns </h3>
       <div>
-        <div className="grid-example-row">
-          <div className="grid-example-col">
-            <img className="img-responsive" src={imageList[0]} alt="" />
+        <div className="grid__row">
+          <div className="grid__col">
+            <img className="img--responsive" src={imageList[0]} alt="" />
           </div>
-          <div className="grid-example-col">
-            <img className="img-responsive" src={imageList[1]} alt="" />
+          <div className="grid__col">
+            <img className="img--responsive" src={imageList[1]} alt="" />
           </div>
-          <div className="grid-example-col">
-            <img className="img-responsive" src={imageList[2]} alt="" />
+          <div className="grid__col">
+            <img className="img--responsive" src={imageList[2]} alt="" />
           </div>
         </div>
       </div>
       <h3> Grid with 2 columns </h3>
       <div>
-        <div className="grid-example-row-2">
-          <div className="grid-example-col-2">
-            <img className="img-responsive" src={imageList[1]} alt="" />
+        <div className="grid__row--two">
+          <div className="grid__col--two">
+            <img className="img--responsive" src={imageList[1]} alt="" />
           </div>
-          <div className="grid-example-col-2">
-            <img className="img-responsive" src={imageList[0]} alt="" />
+          <div className="grid__col--two">
+            <img className="img--responsive" src={imageList[0]} alt="" />
           </div>
         </div>
       </div>
@@ -39,7 +39,9 @@ function Grid(props) {
       <p>
         The images used for showing the Avatar are obtained from&nbsp;
         <span>
-          <a href="https://unsplash.com/">Unsplash.com</a>
+          <a className="anchor" href="https://unsplash.com/">
+            Unsplash.com
+          </a>
         </span>
         .
       </p>

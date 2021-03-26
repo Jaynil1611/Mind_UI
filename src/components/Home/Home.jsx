@@ -6,19 +6,19 @@ import { Link } from "react-router-dom";
 function Home(props) {
   return (
     <div className="home-container">
-      <div className="h2 text-bold">
+      <div className="h2 text--bold">
         Build blazingly fast web apps with
-        <span className="text-primary"> Mind UI </span>
+        <span className="text--primary"> Mind UI </span>
       </div>
-      <div className="subtitle-md">
+      <div className="subtitle--md">
         Mind UI is a lightweight and modular component library which helps
         developers to build beautiful web apps with speed. Copy the below code
         to use Mind UI in your project.
       </div>
-      <div className="button-home">
+      <div>
         <button
           type="button"
-          className="button button-primary button-link subtitle-md"
+          className="button button--primary button--link subtitle--md"
         >
           <Link to={"/avatar"}>
             Get Started <i className="fas fa-arrow-right"></i>

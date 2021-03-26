@@ -14,29 +14,29 @@ function Navigation(props) {
       <h3> Desktop Navigation </h3>
       <p> Left Nav </p>
       <div className="navigation-examples">
-        <ul className="nav nav-left">
+        <ul className="nav nav--left">
           <li>
-            <a className="nav-link" href="nav#">
+            <a className="nav--link" href="nav#">
               Home
             </a>
           </li>
           <li>
-            <a className="nav-link" href="nav#">
+            <a className="nav--link" href="nav#">
               Showcase
             </a>
           </li>
           <li>
-            <a className="nav-link" href="nav#">
+            <a className="nav--link" href="nav#">
               Pricing
             </a>
           </li>
           <li>
-            <a className="nav-link" href="nav#">
+            <a className="nav--link" href="nav#">
               About
             </a>
           </li>
           <li>
-            <a className="nav-link" href="nav#">
+            <a className="nav--link" href="nav#">
               Contact
             </a>
           </li>
@@ -44,29 +44,29 @@ function Navigation(props) {
       </div>
       <p> Right Nav </p>
       <div className="navigation-examples">
-        <ul className="nav nav-right">
+        <ul className="nav nav--right">
           <li>
-            <a className="nav-link" href="nav#">
+            <a className="nav--link" href="nav#">
               Home
             </a>
           </li>
           <li>
-            <a className="nav-link" href="nav#">
+            <a className="nav--link" href="nav#">
               Showcase
             </a>
           </li>
           <li>
-            <a className="nav-link" href="nav#">
+            <a className="nav--link" href="nav#">
               Pricing
             </a>
           </li>
           <li>
-            <a className="nav-link" href="nav#">
+            <a className="nav--link" href="nav#">
               About
             </a>
           </li>
           <li>
-            <a className="nav-link" href="nav#">
+            <a className="nav--link" href="nav#">
               Contact
             </a>
           </li>

@@ -6,12 +6,12 @@ const ToastContent = (props) => {
   return (
     <div className="toast">
       <i className="fas fa-exclamation-triangle fa-lg"></i>
-      <span className="toast-content">
+      <span className="toast__content">
         Warning! You are following some bad practice
       </span>
       <button
         type="button"
-        className="toast-close button-primary"
+        className="toast--close button-primary"
         onClick={() => props.setShowToast(false)}
       >
         <i className="fas fa-times"></i>
@@ -37,7 +37,7 @@ function Toast(props) {
         <div>
           <button
             type="button"
-            className="button button-secondary"
+            className="button button--secondary"
             onClick={handleToastClick}
           >
             Show Toast

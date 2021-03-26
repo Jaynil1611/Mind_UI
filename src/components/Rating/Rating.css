@@ -9,7 +9,7 @@
   margin: 0.8rem 0;
 }
 
-.rating-examples {
+/* .rating-examples {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
@@ -27,28 +27,28 @@
   margin: 1rem 0;
 }
 
-.star-icon {
+.star__icon {
   color: var(--secondary-color);
 }
 
-.star-active > i {
+.star__icon--active > i {
   color: var(--accent-color);
 }
 
-.heart-active > i {
+.heart__icon--active > i {
   color: var(--focus-color-primary);
 }
 
-.read-only {
+.rating--read-only {
   pointer-events: none;
 }
 
-.disabled {
+.rating--disabled {
   background: none;
   opacity: 0.7;
 }
 
-.feedback {
+.rating--feedback {
   padding: 0 0.8rem;
 }
 
@@ -61,4 +61,4 @@
   .rating {
     align-items: center;
   }
-}
+} */
