@@ -161,7 +161,7 @@ section > * {
   color: #fed6bc;
 }
 
-.badge__icons-examples {
+.badge__icon-container {
   position: relative;
   top: 0;
   font-size: 2rem;
@@ -173,8 +173,6 @@ section > * {
   top: -0.5rem;
   display: flex;
   justify-content: center;
-  z-index: 1;
-  box-sizing: border-box;
   left: 1.6rem;
   align-items: center;
   font-size: 1rem;
