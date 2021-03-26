@@ -32,6 +32,7 @@ body {
 /* Anchor Tag Color */
 a {
   color: var(--text-color);
+  text-decoration: none;
 }
 
 /* HR Spacing */
