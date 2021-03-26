@@ -634,7 +634,7 @@ section > * {
 
 /* Grid */
 
-.grid-example-row {
+.grid__row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 1rem;
@@ -642,14 +642,14 @@ section > * {
   border-radius: 0.5rem;
 }
 
-.grid-example-col {
+.grid__col {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   padding: 1rem;
 }
 
-.grid-example-row-2 {
+.grid__row--two {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 1rem;
@@ -657,7 +657,7 @@ section > * {
   border-radius: 0.5rem;
 }
 
-.grid-example-col-2 {
+.grid__col--two {
   display: flex;
   flex-direction: column;
   padding: 1rem;
