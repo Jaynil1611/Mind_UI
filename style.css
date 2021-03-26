@@ -352,11 +352,6 @@ section > * {
   padding-top: 0.5rem;
 }
 
-.img--responsive {
-  width: 100%;
-  height: auto;
-}
-
 .card__badge {
   position: absolute;
   z-index: 2;
@@ -402,32 +397,32 @@ section > * {
   border-radius: 1rem;
 }
 
-.img-small {
+.img__container-center {
+  width: 50%;
+}
+
+.img--sm {
   width: 5rem;
   height: 5rem;
 }
 
-.img-medium {
+.img--md {
   width: 10rem;
   height: 10rem;
 }
 
-.img-large {
+.img--lg {
   width: 15rem;
   height: 15rem;
 }
 
-.img-rounded {
+.img--rounded {
   border-radius: 50%;
 }
 
-.img-responsive {
+.img--responsive {
   width: 100%;
   height: auto;
-}
-
-.container-center {
-  width: 50%;
 }
 
 /* Input */
