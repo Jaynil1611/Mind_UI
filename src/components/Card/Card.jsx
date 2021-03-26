@@ -19,20 +19,20 @@ function Card(props) {
       <h3> Usage </h3>
       <h3> Cards with Image and Text </h3>
       <div className="card-examples">
-        <div className="card card-width">
-          <img className="img-responsive" src={imageList[0]} alt="" />
-          <h2 className="card-heading"> Card Heading </h2>
-          <p className="card-content">
+        <div className="card card--width">
+          <img className="img--responsive" src={imageList[0]} alt="" />
+          <h2 className="card__heading"> Card Heading </h2>
+          <p className="card__content">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
             numquam itaque quisquam harum dicta ea, eveniet aperiam eum
             repudiandae, sapiente nobis. Natus dignissimos nobis quisquam itaque
             impedit eos quos doloribus.
           </p>
         </div>
-        <div className="card card-width">
-          <img className="img-responsive" src={imageList[1]} alt="" />
-          <h2 className="card-heading"> Card Heading </h2>
-          <p className="card-content">
+        <div className="card card--width">
+          <img className="img--responsive" src={imageList[1]} alt="" />
+          <h2 className="card__heading"> Card Heading </h2>
+          <p className="card__content">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
             numquam itaque quisquam harum dicta ea, eveniet aperiam eum
             repudiandae, sapiente nobis. Natus dignissimos nobis quisquam itaque
@@ -42,25 +42,25 @@ function Card(props) {
       </div>
       <h3> Card with Badges </h3>
       <div className="card-examples">
-        <div className="card card-width">
-          <div className="card-badge"> NEW </div>
-          <img className="img-responsive" src={imageList[3]} alt="" />
-          <h2 className="card-heading"> Card Heading </h2>
-          <p className="card-content">
+        <div className="card card--width">
+          <div className="card__badge"> NEW </div>
+          <img className="img--responsive" src={imageList[3]} alt="" />
+          <h2 className="card__heading"> Card Heading </h2>
+          <p className="card__content">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
             numquam itaque quisquam harum dicta ea, eveniet aperiam eum
             repudiandae, sapiente nobis. Natus dignissimos nobis quisquam itaque
             impedit eos quos doloribus.
           </p>
-        </div> 
+        </div>
       </div>
       <h3> Horizontal Cards </h3>
       <div className="card-examples">
-        <div className="card-horizontal">
+        <div className="card--horizontal">
           <img className="img-horizontal" src={imageList[4]} alt="" />
-          <div className="card card-horizontal-content">
-            <h2 className="card-heading"> Card Heading </h2>
-            <p className="card-content">
+          <div className="card card__content--horizontal">
+            <h2 className="card__heading"> Card Heading </h2>
+            <p className="card__content">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora
               numquam itaque quisquam harum dicta ea, eveniet aperiam eum
               repudiandae, sapiente nobis. Natus dignissimos nobis quisquam

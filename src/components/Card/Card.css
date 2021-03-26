@@ -19,10 +19,6 @@
   border-radius: 1rem;
 }
 
-.card.card-width {
-  flex-basis: 44%;
-}
-
 /* .card {
   display: flex;
   position: relative;
