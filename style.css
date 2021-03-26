@@ -437,7 +437,7 @@ section > * {
   border-radius: 1rem;
 }
 
-.input-box {
+.input__container {
   display: flex;
   justify-content: flex-start;
   position: relative;
@@ -465,7 +465,7 @@ section > * {
   border: 1px solid var(--light-color);
 }
 
-.input-label {
+.input__label {
   position: absolute;
   bottom: 2.6rem;
   z-index: 2;
@@ -477,7 +477,7 @@ section > * {
   background-color: var(--light-color);
 }
 
-.input-error {
+.input--error {
   display: flex;
   position: absolute;
   top: 3.5rem;
