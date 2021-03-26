@@ -340,6 +340,10 @@ section > * {
   box-shadow: var(--secondary-color) 0px 5px 15px;
 }
 
+.card--width {
+  flex-basis: 44%;
+}
+
 .card__heading {
   padding: 1rem 0;
 }
@@ -799,7 +803,7 @@ section > * {
   }
 
   /* Card */
-  .card.card.card-width {
+  .card--width {
     flex-basis: 100%;
   }
 }
