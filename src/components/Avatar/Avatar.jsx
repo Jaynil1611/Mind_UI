@@ -105,7 +105,7 @@ function Avatar(props) {
         {imageList.map(({ id, src }) => (
           <div key={id} className="badge">
             <img className="avatar" key={id} src={src} alt="" />
-            <span className="avatar__badge position"></span>
+            <span className="avatar__badge alignment"></span>
           </div>
         ))}
       </div>

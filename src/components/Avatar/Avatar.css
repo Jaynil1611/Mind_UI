@@ -23,6 +23,12 @@
   justify-content: flex-start;
   padding: 1.5rem;
 }
+
+.avatar__badge.alignment {
+  top: 3.8rem;
+  left: 3.5rem;
+}
+
 /* 
 .avatar {
   width: 5rem;
@@ -64,8 +70,3 @@
   border-radius: 10px;
   background-color: var(--accent-color);
 } */
-
-.avatar__badge.position {
-  top: 3.8rem;
-  left: 3.5rem;
-}

@@ -9,6 +9,12 @@
   margin: 0.8rem 0;
 }
 
+@media screen and (max-width: 648px) {
+  .alert-examples {
+    width: 100%;
+  }
+}
+
 /* .alert-examples {
   display: flex;
   flex-wrap: wrap;
@@ -35,9 +41,3 @@
 .alert-sucess {
   background-color: #3f3d3c;
 } */
-
-@media screen and (max-width: 648px) {
-  .alert-examples {
-    width: 100%;
-  }
-}
