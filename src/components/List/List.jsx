@@ -21,19 +21,21 @@ function List(props) {
       <h3> Simple List with Variations </h3>
       <div className="list-examples">
         <div>
-          <ul className="list-group">
+          <ul className="list__group">
             {listExample.map((item, index) => (
-              <li className="list-items border" key={index}>
+              <li className="list__item list__item--border" key={index}>
                 {item}
               </li>
             ))}
           </ul>
         </div>
         <div>
-          <ul className="list-group">
+          <ul className="list__group">
             {listExample.map((item, index) => (
               <li
-                className={`list-items border ${index & 1 ? "active" : null}`}
+                className={`list__item list__item--border ${
+                  index & 1 ? "list__item--active " : null
+                }`}
                 key={index}
               >
                 {item}
@@ -42,11 +44,13 @@ function List(props) {
           </ul>
         </div>
         <div>
-          <ul className="list-group">
+          <ul className="list__group">
             {listExample.map((item, index) => (
               <li
                 tabIndex={`${index & 1 ? "-1" : 0}`}
-                className={`list-items border ${index & 1 ? "disabled" : null}`}
+                className={`list__item list__item--border ${
+                  index & 1 ? "list__item--disabled" : null
+                }`}
                 key={index}
               >
                 {item}
@@ -57,11 +61,11 @@ function List(props) {
       </div>
       <h3> Stacked List </h3>
       <div className="list-examples">
-        <ul className="list-group">
+        <ul className="list__group">
           {imageList.slice(0, 4).map(({ id, src, name }) => (
-            <li className={`list-items border`} key={id}>
+            <li className={`list__item list__item--border`} key={id}>
               <img className="avatar" key={id} src={src} alt="" />
-              <div className="list-stacked">
+              <div className="list--stacked">
                 <h3> {name} </h3>
                 <p>{name.toLowerCase()}@gmail.com</p>
               </div>
