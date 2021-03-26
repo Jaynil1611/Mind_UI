@@ -10,7 +10,7 @@
   margin: 0.8rem 0;
 }
 
-.card-examples {
+/* .card-examples {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -19,7 +19,7 @@
   border-radius: 1rem;
 }
 
-/* .card {
+.card {
   display: flex;
   position: relative;
   top: 0;
