@@ -432,7 +432,6 @@ section > * {
   flex-direction: column;
   flex-wrap: wrap;
   padding: 1rem;
-  /* width: 50%; */
   border: 1px solid var(--text-color);
   border-radius: 1rem;
 }
@@ -467,7 +466,7 @@ section > * {
 .input__label {
   position: absolute;
   bottom: 2.6rem;
-  z-index: 2;
+  z-index: 1;
   left: 0.6rem;
   color: var(--accent-color);
   font-size: 0.8rem;
@@ -496,7 +495,7 @@ section > * {
   border-radius: 1rem;
 }
 
-.list-group {
+.list__group {
   display: flex;
   flex: 1 1 0;
   flex-direction: column;
@@ -509,30 +508,30 @@ section > * {
   overflow: hidden;
 }
 
-.list-items {
+.list__item {
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
   border-bottom: 1px solid var(--text-color);
 }
 
-.list-items.border {
+.list__item--border {
   border-bottom: 1px solid var(--text-color);
 }
 
-.active {
+.list__item--active {
   display: flex;
   background-color: var(--accent-color);
   border-bottom: 1px solid var(--text-color);
 }
 
-.disabled {
+.list__item--disabled {
   background-color: var(--secondary-color);
   color: gray;
   pointer-events: none;
 }
 
-.list-stacked {
+.list--stacked {
   display: flex;
   padding: 1rem;
   flex-direction: column;
@@ -540,14 +539,14 @@ section > * {
   flex-wrap: wrap;
 }
 
-.inline-list {
+.list--inline {
   display: flex;
   list-style: none;
   align-items: center;
   padding-inline-start: 0;
 }
 
-.list-spacing {
+.list--spacing {
   padding: 0.2rem;
 }
 
