@@ -611,7 +611,7 @@ section > * {
   background-color: rgba(45, 55, 76, 0.4);
 }
 
-.modal-content {
+.modal__content {
   display: flex;
   padding: 1rem;
   background-color: var(--secondary-color);
@@ -621,7 +621,7 @@ section > * {
   margin: auto;
 }
 
-.close {
+.modal--close {
   position: relative;
   margin-top: 1rem;
   padding: 0.5rem;
