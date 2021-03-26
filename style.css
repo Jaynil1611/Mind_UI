@@ -699,19 +699,19 @@ section > * {
   font-size: 1.5rem;
 }
 
-.subtitle-md {
+.subtitle--md {
   font-size: 1.2rem;
 }
 
-.subtitle-sm {
+.subtitle--sm {
   font-size: 1rem;
 }
 
-.body-md {
+.body--md {
   font-size: 0.8rem;
 }
 
-.body-sm {
+.body--sm {
   font-size: 0.7rem;
 }
 
@@ -719,23 +719,23 @@ section > * {
   padding: 1rem;
 }
 
-.spacing-body {
+.spacing--body {
   padding: 0 1rem;
 }
 
-.text-center {
+.text--center {
   text-align: center;
 }
 
-.text-gray {
+.text--gray {
   color: #6b7280;
 }
 
-.text-primary {
+.text--primary {
   color: var(--accent-color);
 }
 
-.text-bold {
+.text--bold {
   font-weight: bold;
 }
 
