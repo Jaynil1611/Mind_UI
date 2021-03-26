@@ -437,7 +437,7 @@ section > * {
   border-radius: 1rem;
 }
 
-.input__container {
+.input__box {
   display: flex;
   justify-content: flex-start;
   position: relative;
@@ -450,7 +450,6 @@ section > * {
 .input {
   display: flex;
   position: relative;
-  height: 1rem;
   outline: none;
   padding: 1rem;
   width: 100%;
