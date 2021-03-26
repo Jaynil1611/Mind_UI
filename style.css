@@ -391,15 +391,10 @@ section > * {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* flex: 1 1 50%; */
   width: 50%;
   padding: 1rem;
   border: 1px solid var(--text-color);
   border-radius: 1rem;
-}
-
-.img__container-center {
-  width: 50%;
 }
 
 .img--sm {
@@ -849,6 +844,11 @@ section > * {
   /* Card */
   .card--width {
     flex-basis: 100%;
+  }
+
+  /* Image */
+  .image-examples {
+    width: initial;
   }
 
   /* Rating */
