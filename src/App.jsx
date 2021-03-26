@@ -53,9 +53,9 @@ function App() {
     <>
       <Router>
         <div className="grid-row">
-          <div className="heading">
-            <div className="intro">
-              <h1 className="heading-text">
+          <div className="hero__heading">
+            <div className="hero__intro">
+              <h1 className="hero__heading--text">
                 <Link to={"/"}>Mind UI </Link> Documentation
               </h1>
               <ul className="list-style navbar">
@@ -78,6 +78,15 @@ function App() {
                     rel="noreferrer"
                   >
                     <i className="fab fa-github fa-lg"></i>
+                  </a>
+                </li>
+                <li className="list-item">
+                  <a
+                    href="https://www.linkedin.com/in/jaynilgaglani/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <i className="fab fa-linkedin-in fa-lg"></i>
                   </a>
                 </li>
               </ul>

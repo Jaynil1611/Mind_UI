@@ -21,30 +21,22 @@ function Image(props) {
         </div>
       </div>
       <h3> Rounded Image </h3>
-      <div className="image-examples img__container-center">
+      <div className="image-examples">
         <div>
-          <img
-            className="img--sm img--rounded"
-            src={imageList[2].src}
-            alt=""
-          />
+          <img className="img--sm img--rounded" src={imageList[2].src} alt="" />
         </div>
         <div>
-          <img
-            className="img--md img--rounded"
-            src={imageList[2].src}
-            alt=""
-          />
+          <img className="img--md img--rounded" src={imageList[2].src} alt="" />
         </div>
       </div>
-        <h3> Notes : </h3>
-        <p>
-          The images used for showing the Avatar are obtained from&nbsp;
-          <span>
-            <a href="https://unsplash.com/">Unsplash.com</a>
-          </span>
-          .
-        </p>
+      <h3> Notes : </h3>
+      <p>
+        The images used for showing the Avatar are obtained from&nbsp;
+        <span>
+          <a href="https://unsplash.com/">Unsplash.com</a>
+        </span>
+        .
+      </p>
     </div>
   );
 }

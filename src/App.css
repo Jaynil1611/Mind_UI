@@ -41,17 +41,17 @@ body {
   margin-top: 6rem;
 }
 
-.heading {
+.hero__heading {
   display: grid;
   grid-column: 1/4;
   text-align: center;
 }
 
-.heading-text {
+.hero__heading--text {
   padding: 0rem 3rem;
 }
 
-.intro {
+.hero__intro {
   display: flex;
   position: fixed;
   top: 0;
@@ -129,6 +129,7 @@ body {
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    overflow-y: scroll;
     transition: all 0.5s ease;
   }
 

@@ -57,7 +57,7 @@ function Card(props) {
       <h3> Horizontal Cards </h3>
       <div className="card-examples">
         <div className="card--horizontal">
-          <img className="img-horizontal" src={imageList[4]} alt="" />
+          <img className="img--horizontal" src={imageList[4]} alt="" />
           <div className="card card__content--horizontal">
             <h2 className="card__heading"> Card Heading </h2>
             <p className="card__content">
@@ -73,7 +73,7 @@ function Card(props) {
       <p>
         The images used for showing the Avatar are obtained from&nbsp;
         <span>
-          <a href="https://unsplash.com/">Unsplash.com</a>
+          <a className="anchor" href="https://unsplash.com/">Unsplash.com</a>
         </span>
         .
       </p>
