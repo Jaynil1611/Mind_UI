@@ -569,21 +569,21 @@ section > * {
   justify-content: flex-start;
 }
 
-.nav-left {
+.nav--left {
   justify-content: flex-start;
 }
 
-.nav-right {
+.nav--right {
   justify-content: flex-end;
 }
 
-.nav-link {
+.nav--link {
   padding: 1rem 1.5rem;
   color: var(--accent-color);
   text-decoration: none;
 }
 
-.nav-link:hover {
+.nav--link:hover {
   text-decoration: underline;
 }
 
