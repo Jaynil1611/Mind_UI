@@ -846,6 +846,18 @@ section > * {
     flex-basis: 100%;
   }
 
+  .card--horizontal {
+    flex-direction: column;
+  }
+
+  .img--horizontal {
+    width: 100%;
+  }
+
+  .card__content--horizontal {
+    padding: 0;
+  }
+
   /* Image */
   .image-examples {
     width: initial;
