@@ -104,15 +104,15 @@ section > * {
   margin: 1rem;
 }
 
-.alert-content {
+.alert--content {
   padding-left: 1rem;
 }
 
-.alert-error {
+.alert--error {
   background-color: var(--accent-color);
 }
 
-.alert-success {
+.alert--success {
   background-color: var(--success-color);
   color: var(--invert-text-color);
 }
