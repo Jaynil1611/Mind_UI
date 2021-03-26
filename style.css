@@ -783,6 +783,12 @@ section > * {
   font-weight: 500;
 }
 
+/* Notes Anchor */
+.anchor {
+  text-decoration: underline;
+  color: var(--accent-color);
+}
+
 /* Rating */
 .rating-examples {
   display: flex;
