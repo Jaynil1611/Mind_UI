@@ -15,6 +15,7 @@ export const imageList = [
       "https://images.unsplash.com/photo-1542909192-2f2241a99c9d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8cG9ydHJhaXR8ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     width: 24,
     height: 24,
+    className: "avatar__image-sm",
     name: "John",
   },
   {
@@ -23,6 +24,7 @@ export const imageList = [
       "https://images.unsplash.com/photo-1518577915332-c2a19f149a75?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvbWFufGVufDB8MnwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     width: 32,
     height: 32,
+    className: "avatar__image-md",
     name: "Wanda",
   },
   {
@@ -47,6 +49,7 @@ export const imageList = [
       "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
     width: 96,
     height: 96,
+
     name: "Paul",
   },
   {
@@ -55,6 +58,7 @@ export const imageList = [
       "https://images.unsplash.com/photo-1479936343636-73cdc5aae0c3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8d29tYW58ZW58MHwyfDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
     width: 128,
     height: 128,
+    className: "avatar__image-lg",
     name: "Stacy",
   },
 ];
@@ -79,16 +83,18 @@ function Avatar(props) {
         property of images.
       </p>
       <div className="avatar-images size">
-        {imageList.map(({ id, src, width, height }) => (
-          <img
-            className="avatar-size"
-            key={id}
-            src={src}
-            alt=""
-            width={width}
-            height={height}
-          />
-        ))}
+        {imageList.map(({ id, src, className }) => {
+          return (
+            className && (
+              <img
+                className={`avatar--size ${className}`}
+                key={id}
+                src={src}
+                alt=""
+              />
+            )
+          );
+        })}
       </div>
       <h3> Avatar with Badge</h3>
       <p>
@@ -99,7 +105,7 @@ function Avatar(props) {
         {imageList.map(({ id, src }) => (
           <div key={id} className="badge">
             <img className="avatar" key={id} src={src} alt="" />
-            <span className="dot-badge-avatar position"></span>
+            <span className="avatar__badge position"></span>
           </div>
         ))}
       </div>

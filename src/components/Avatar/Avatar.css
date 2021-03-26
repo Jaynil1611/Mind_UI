@@ -65,7 +65,7 @@
   background-color: var(--accent-color);
 } */
 
-.dot-badge-avatar.position {
+.avatar__badge.position {
   top: 3.8rem;
   left: 3.5rem;
 }
