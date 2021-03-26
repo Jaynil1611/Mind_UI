@@ -809,7 +809,7 @@ section > * {
   color: var(--accent-color);
 }
 
-.heart--active > i {
+.heart__icon--active > i {
   color: var(--focus-color-primary);
 }
 
