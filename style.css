@@ -340,20 +340,20 @@ section > * {
   box-shadow: var(--secondary-color) 0px 5px 15px;
 }
 
-.card-heading {
+.card__heading {
   padding: 1rem 0;
 }
 
-.card-content {
+.card__content {
   padding-top: 0.5rem;
 }
 
-.img-responsive {
+.img--responsive {
   width: 100%;
   height: auto;
 }
 
-.card-badge {
+.card__badge {
   position: absolute;
   z-index: 2;
   top: 4rem;
@@ -363,7 +363,7 @@ section > * {
   color: var(--accent-color);
 }
 
-.card-horizontal {
+.card--horizontal {
   display: flex;
   flex-direction: row;
   padding: 1rem;
@@ -371,13 +371,13 @@ section > * {
   border-radius: 0.5rem;
 }
 
-.img-horizontal {
+.img--horizontal {
   display: flex;
   width: 50%;
   height: auto;
 }
 
-.card-horizontal-content {
+.card__content--horizontal {
   border: 0;
   margin: 0;
   padding: 0 1rem;
