@@ -56,7 +56,7 @@ section > * {
   padding: 0.5rem;
 }
 
-.badge {
+.avatar__badge-container {
   position: relative;
   top: 0;
 }
