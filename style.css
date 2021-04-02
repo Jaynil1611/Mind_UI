@@ -12,7 +12,9 @@
   --focus-color-primary: #993d01;
   --hover-color-primary: #ed5f02;
   --hover-color-secondary: #2a2d33;
-  --success-color: rgb(154, 230, 180);
+  --success-color: #4caf50;
+  --error-color: #f44336;
+  --warning-color: #ff9800;
   --invert-text-color: #2d3748;
 }
 
@@ -110,12 +112,11 @@ section > * {
 }
 
 .alert--error {
-  background-color: var(--accent-color);
+  background-color: var(--error-color);
 }
 
 .alert--success {
   background-color: var(--success-color);
-  color: var(--invert-text-color);
 }
 
 /* Badge */
@@ -144,22 +145,20 @@ section > * {
 
 .badge--removed {
   background-color: var(--accent-color);
-  color: var(--secondary-color);
 }
 
 .badge--new {
-  color: var(--accent-color);
+  background-color: var(--text-color);
+  color: initial;
 }
 
 .badge--success {
   background-color: var(--success-color);
-  color: var(--secondary-color);
 }
 
 .badge--warning {
   background-color: inherit;
-  border: 2px solid var(--secondary-color);
-  color: #fed6bc;
+  border: 2px solid var(--accent-color);
 }
 
 .badge__icon-container {
@@ -659,82 +658,6 @@ section > * {
   padding: 1rem;
 }
 
-/* Typography */
-
-.text-examples {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1rem;
-  border: 1px solid var(--text-color);
-  border-radius: 1rem;
-}
-
-.h1 {
-  font-size: 4rem;
-}
-
-.h2 {
-  font-size: 3.5rem;
-}
-
-.h3 {
-  font-size: 3rem;
-}
-
-.h4 {
-  font-size: 2.5rem;
-}
-
-.h5 {
-  font-size: 2rem;
-}
-
-.h6 {
-  font-size: 1.5rem;
-}
-
-.subtitle--md {
-  font-size: 1.2rem;
-}
-
-.subtitle--sm {
-  font-size: 1rem;
-}
-
-.body--md {
-  font-size: 0.8rem;
-}
-
-.body--sm {
-  font-size: 0.7rem;
-}
-
-.spacing {
-  padding: 1rem;
-}
-
-.spacing--body {
-  padding: 0 1rem;
-}
-
-.text--center {
-  text-align: center;
-}
-
-.text--gray {
-  color: #6b7280;
-}
-
-.text--primary {
-  color: var(--accent-color);
-}
-
-.text--bold {
-  font-weight: bold;
-}
-
 /* Toast */
 
 .toast-examples {
@@ -826,6 +749,86 @@ section > * {
 
 .rating--feedback {
   padding: 0 0.8rem;
+}
+
+/* Typography */
+
+.text-examples {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid var(--text-color);
+  border-radius: 1rem;
+}
+
+.h1 {
+  font-size: 4rem;
+}
+
+.h2 {
+  font-size: 3.5rem;
+}
+
+.h3 {
+  font-size: 3rem;
+}
+
+.h4 {
+  font-size: 2.5rem;
+}
+
+.h5 {
+  font-size: 2rem;
+}
+
+.h6 {
+  font-size: 1.5rem;
+}
+
+.subtitle--md {
+  font-size: 1.2rem;
+}
+
+.subtitle--sm {
+  font-size: 1rem;
+}
+
+.body--md {
+  font-size: 0.8rem;
+}
+
+.body--sm {
+  font-size: 0.7rem;
+}
+
+.spacing {
+  padding: 1rem;
+}
+
+.spacing--body {
+  padding: 0 1rem;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--gray {
+  color: #6b7280;
+}
+
+.text--primary {
+  color: var(--accent-color);
+}
+
+.text--white {
+  color: var(--text-color);
+}
+
+.text--bold {
+  font-weight: bold;
 }
 
 /* Media Queries */
