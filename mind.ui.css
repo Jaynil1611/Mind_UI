@@ -102,7 +102,7 @@ section > * {
 }
 
 .alert {
-  background-color: var(--secondary-color);
+  background-color: var(--text-color);
   padding: 1rem;
   margin: 1rem;
 }
@@ -117,6 +117,10 @@ section > * {
 
 .alert--success {
   background-color: var(--success-color);
+}
+
+.alert--warning {
+  background-color: var(--warning-color);
 }
 
 /* Badge */
