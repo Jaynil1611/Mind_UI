@@ -255,6 +255,12 @@ section > * {
   transition: 0.2s;
 }
 
+.button--outline {
+  border: 2px solid var(--accent-color);
+  color: var(--text-color);
+  background-color: transparent;
+}
+
 .button--sm {
   font-size: 0.5rem;
   padding: 0.5rem;
