@@ -3,6 +3,8 @@ const showModal = document.querySelector("#show-modal");
 
 const closeModal = document.querySelector("#close-modal");
 
+const dismissModal = document.querySelector("#dismiss-modal");
+
 const modalContent = document.querySelector(".modal");
 
 const body = document.querySelector("body");
@@ -23,6 +25,8 @@ window.onclick = function (event) {
 showModal.addEventListener("click", handleModalOpen);
 
 closeModal.addEventListener("click", handleCloseModal);
+
+dismissModal.addEventListener("click", handleCloseModal);
 
 // --------------------------------------------------------------------------------------------------------------------------------
 

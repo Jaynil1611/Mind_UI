@@ -629,8 +629,10 @@ section > * {
 
 .modal__content {
   display: flex;
+  position: relative;
   padding: 1rem;
-  background-color: var(--secondary-color);
+  background-color: var(--text-color);
+  color: var(--secondary-color);
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
@@ -644,10 +646,15 @@ section > * {
   border: 2px solid var(--accent-color);
   outline: none;
   cursor: pointer;
-  color: inherit;
+  color: var(--text-color);
   border-radius: 0.5rem;
 }
 
+.modal--dismiss {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
 /* Grid */
 
 .grid__row {
