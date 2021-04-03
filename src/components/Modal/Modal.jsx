@@ -13,6 +13,13 @@ const ModalContent = ({ setShowModal, handleModalClose }) => {
         </p>
         <button
           type="button"
+          className="toast--close modal--dismiss button--primary"
+          onClick={() => setShowModal(false)}
+        >
+          <i className="fas fa-times"></i>
+        </button>
+        <button
+          type="button"
           className="modal--close button--primary"
           onClick={() => setShowModal(false)}
         >

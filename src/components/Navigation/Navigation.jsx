@@ -16,6 +16,13 @@ function Navigation(props) {
       <div className="navigation-examples">
         <ul className="nav nav--left">
           <li>
+            <img
+              className="img--vsm"
+              src="https://user-images.githubusercontent.com/48921037/113471692-bac08700-947b-11eb-9999-914bd3d84d19.png"
+              alt=""
+            />
+          </li>
+          <li>
             <a className="nav--link" href="nav#">
               Home
             </a>
@@ -44,33 +51,43 @@ function Navigation(props) {
       </div>
       <p> Right Nav </p>
       <div className="navigation-examples">
-        <ul className="nav nav--right">
-          <li>
-            <a className="nav--link" href="nav#">
-              Home
-            </a>
-          </li>
-          <li>
-            <a className="nav--link" href="nav#">
-              Showcase
-            </a>
-          </li>
-          <li>
-            <a className="nav--link" href="nav#">
-              Pricing
-            </a>
-          </li>
-          <li>
-            <a className="nav--link" href="nav#">
-              About
-            </a>
-          </li>
-          <li>
-            <a className="nav--link" href="nav#">
-              Contact
-            </a>
-          </li>
-        </ul>
+        <div>
+          <img
+            class="img--vsm"
+            src="https://user-images.githubusercontent.com/48921037/113471692-bac08700-947b-11eb-9999-914bd3d84d19.png"
+            alt=""
+          />
+        </div>
+        <div>
+          {" "}
+          <ul className="nav nav--right">
+            <li>
+              <a className="nav--link" href="nav#">
+                Home
+              </a>
+            </li>
+            <li>
+              <a className="nav--link" href="nav#">
+                Showcase
+              </a>
+            </li>
+            <li>
+              <a className="nav--link" href="nav#">
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a className="nav--link" href="nav#">
+                About
+              </a>
+            </li>
+            <li>
+              <a className="nav--link" href="nav#">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );

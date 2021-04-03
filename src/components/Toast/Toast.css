@@ -22,7 +22,8 @@
   bottom: 3rem;
   align-items: center;
   padding: 1rem;
-  background-color: var(--secondary-color);
+  background-color: var(--text-color);
+  color: var(--secondary-color);
   transition: all 0.2s ease 0s;
 }
 

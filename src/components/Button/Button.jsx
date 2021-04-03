@@ -30,18 +30,18 @@ function Button(props) {
       </div>
       <h3> Secondary Button </h3>
       <div className="button-examples">
-        <button type="button" className="button button--secondary button--sm">
+        <button type="button" className="button button--outline button--sm">
           Button
         </button>
-        <button type="button" className="button button--secondary button--md">
+        <button type="button" className="button button--outline button--md">
           Button
         </button>
-        <button type="button" className="button button--secondary">
+        <button type="button" className="button button--outline">
           Button
         </button>
         <button
           type="button"
-          className="button button--secondary button--lg button__link"
+          className="button button--outline button--lg button__link"
         >
           <a href="https://github.com/Jaynil1611/mind-ui"> Button </a>
         </button>

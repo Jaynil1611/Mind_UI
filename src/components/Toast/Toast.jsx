@@ -5,9 +5,9 @@ import "../Button/Button";
 const ToastContent = (props) => {
   return (
     <div className="toast">
-      <i className="fas fa-exclamation-triangle fa-lg"></i>
+      <i className="fas fa-info-circle fa-lg"></i>
       <span className="toast__content">
-        Warning! You are following some bad practice
+        Mind UI is open source and free to use!
       </span>
       <button
         type="button"
@@ -37,7 +37,7 @@ function Toast(props) {
         <div>
           <button
             type="button"
-            className="button button--secondary"
+            className="button button--primary"
             onClick={handleToastClick}
           >
             Show Toast

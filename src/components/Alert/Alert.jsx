@@ -11,7 +11,7 @@ function Alert(props) {
       </p>
       <h3> Usage </h3>
       <div className="alert-examples">
-        <div className="alert">
+        <div className="alert alert--warning">
           <i className="fas fa-exclamation-triangle fa-lg"></i>
           <span className="alert--content">
             Warning! You are following some bad practice
@@ -27,12 +27,6 @@ function Alert(props) {
           <i className="fas fa-check-circle fa-lg"></i>
           <span className="alert--content">
             Success! You have successfully completed the task
-          </span>
-        </div>
-        <div className="alert">
-          <i className="fas fa-info-circle fa-lg"></i>
-          <span className="alert--content">
-            Mind UI is open source on github. Check it out!
           </span>
         </div>
       </div>

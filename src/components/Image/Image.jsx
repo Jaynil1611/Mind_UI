@@ -28,12 +28,17 @@ function Image(props) {
         <div>
           <img className="img--md img--rounded" src={imageList[2].src} alt="" />
         </div>
+        <div>
+          <img className="img--lg img--rounded" src={imageList[2].src} alt="" />
+        </div>
       </div>
       <h3> Notes : </h3>
       <p>
         The images used for showing the Avatar are obtained from&nbsp;
         <span>
-          <a href="https://unsplash.com/">Unsplash.com</a>
+          <a className="anchor" href="https://unsplash.com/">
+            Unsplash.com
+          </a>
         </span>
         .
       </p>
