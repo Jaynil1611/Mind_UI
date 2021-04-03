@@ -368,7 +368,7 @@ section > * {
 .card__badge {
   position: absolute;
   z-index: 2;
-  top: 2.5rem;
+  top: 3rem;
   background-color: var(--text-color);
   padding: 0.5rem;
   font-weight: bold;
@@ -408,6 +408,11 @@ section > * {
   padding: 1rem;
   border: 1px solid var(--text-color);
   border-radius: 1rem;
+}
+
+.img--vsm {
+  width: 3rem;
+  height: 3rem;
 }
 
 .img--sm {
@@ -477,7 +482,7 @@ section > * {
   bottom: 2.6rem;
   z-index: 1;
   left: 0.6rem;
-  color: var(--accent-color);
+  color: var(--invert-text-color);
   font-size: 0.8rem;
   font-weight: 500;
   padding: 0 0.5rem;
@@ -566,6 +571,7 @@ section > * {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 1rem;
+  align-items: center;
   border: 1px solid var(--text-color);
   border-radius: 1rem;
 }
@@ -575,6 +581,7 @@ section > * {
   flex-wrap: wrap;
   list-style: none;
   width: 100%;
+  align-items: center;
   justify-content: flex-start;
 }
 
