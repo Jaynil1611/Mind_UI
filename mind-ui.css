@@ -706,7 +706,7 @@ section > * {
   padding: 1rem;
   align-items: center;
   background-color: var(--text-color);
-  color:var(--secondary-color);
+  color: var(--secondary-color);
   transition: all 0.2s ease 0s;
 }
 
@@ -836,8 +836,25 @@ section > * {
   padding: 1rem;
 }
 
+.spacing--sm {
+  padding: 0.5rem;
+}
+
 .spacing--body {
   padding: 0 1rem;
+}
+
+.spacing--horiz {
+  padding: 0.5rem 0;
+}
+
+.spacing--hz {
+  padding: 0.5rem 1rem;
+}
+
+.spacing--vh {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .text--center {
