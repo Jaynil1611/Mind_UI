@@ -845,7 +845,7 @@ section > * {
 }
 
 .spacing--horiz {
-  padding: 0.5rem 0;
+  padding: 0 0.5rem;
 }
 
 .spacing--hz {
@@ -853,8 +853,7 @@ section > * {
 }
 
 .spacing--vh {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem 0;
 }
 
 .text--center {
