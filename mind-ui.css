@@ -270,6 +270,12 @@ section > * {
   background-color: transparent;
 }
 
+.button--outline:hover,
+.button--outline:focus {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
 .button--sm {
   font-size: 0.5rem;
   padding: 0.5rem;
