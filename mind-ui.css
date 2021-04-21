@@ -16,6 +16,11 @@
   --error-color: #f44336;
   --warning-color: #ff9800;
   --invert-text-color: #2d3748;
+  --z-index-1: 1;
+  --z-index-3: 3;
+  --z-index-5: 5;
+  --z-index-7: 7;
+  --z-index-10: 10;
 }
 
 * {
