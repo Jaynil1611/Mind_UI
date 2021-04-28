@@ -892,6 +892,10 @@ section > * {
   font-weight: bold;
 }
 
+.padding--right-md {
+  padding-right: 1rem;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 648px) {
