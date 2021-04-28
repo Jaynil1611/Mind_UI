@@ -421,6 +421,11 @@ section > * {
   border-radius: 1rem;
 }
 
+.img--xs {
+  width: 2rem;
+  height: 2rem;
+}
+
 .img--vsm {
   width: 3rem;
   height: 3rem;
