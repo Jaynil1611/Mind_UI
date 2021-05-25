@@ -1005,4 +1005,11 @@ section > * {
   .rating {
     align-items: center;
   }
+
+  .loading::after {
+    width: 30px;
+    height: 30px;
+    border: 5px solid var(--light-color);
+    border-top-color: var(--accent-color);
+  }
 }
