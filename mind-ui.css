@@ -796,6 +796,39 @@ section > * {
   padding: 0 0.8rem;
 }
 
+/* Loader */
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 0%;
+  flex-wrap: wrap;
+  padding: 1rem;
+  border: 1px solid var(--text-color);
+  border-radius: 1rem;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+}
+
+.loading::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 10px solid var(--light-color);
+  border-top-color: var(--accent-color);
+  border-radius: 50%;
+  animation: loading 1s ease-in-out infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
 /* Typography */
 
 .text-examples {
