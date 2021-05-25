@@ -888,6 +888,10 @@ section > * {
   color: var(--text-color);
 }
 
+.text--secondary {
+  color: var(--secondary-color);
+}
+
 .text--bold {
   font-weight: bold;
 }
