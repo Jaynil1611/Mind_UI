@@ -896,6 +896,34 @@ section > * {
   padding-right: 1rem;
 }
 
+.margin--sm {
+  margin: 0.5rem;
+}
+
+.margin--md {
+  margin: 1rem;
+}
+
+.margin--lg {
+  margin: 1.5rem;
+}
+
+.margin--top {
+  margin-top: 1rem;
+}
+
+.margin--bottom {
+  margin-bottom: 1rem;
+}
+
+.margin--left {
+  margin-left: 1rem;
+}
+
+.margin--right {
+  margin-right: 1rem;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 648px) {
