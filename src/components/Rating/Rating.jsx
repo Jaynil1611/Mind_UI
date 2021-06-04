@@ -33,7 +33,7 @@ export const StarRating = ({
               onMouseEnter={() => setHover(index)}
               onMouseLeave={() => setHover(active)}
             >
-              <i className={`fas fa-${iconType} fa-lg star__icon`}></i>
+              <i className={`far fa-${iconType} fa-lg icon`}></i>
             </li>
           );
         })}
