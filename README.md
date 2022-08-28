@@ -16,7 +16,7 @@ You can view the component library here 👉 [Mind UI Library](https://mind-ui-l
 
 
 ## Usage
-Add this link tag in your index.html to use Mind UI in your project.
+Add this link tag in your `index.html` to use Mind UI in your project.
 
 ```html
 <link rel="stylesheet" href="https://mind-ui-library.netlify.app/mind-ui.css">"/>
