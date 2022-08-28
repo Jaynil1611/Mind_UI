@@ -1,72 +1,53 @@
-# Mind_UI
+# Mind_UI⚡
 
-# Getting Started with Create React App
+## Introduction
+Mind UI is a lightweight and modular component library which helps developers to build beautiful web apps with speed. Copy the below code to use Mind UI in your project.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Live Demo
+View the live demo of the component library docs here 👉  [Mind UI Docs](https://mind-ui.netlify.app/).  
+You can view the component library here 👉 [Mind UI Library](https://mind-ui-library.netlify.app/)
 
-## Available Scripts
+## Component Library Docs View
+![Screenshot (18)](https://user-images.githubusercontent.com/48921037/187066560-09485b98-a7a9-4a21-84dd-7026a6da91ee.png)
 
-In the project directory, you can run:
 
-### `yarn start`
+## Component Library View
+![mind-ui-library netlify app_](https://user-images.githubusercontent.com/48921037/187066603-08914b6c-92f5-44ac-b4b2-1339fb24a9d3.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Usage
+Add this link tag in your `index.html` to use Mind UI in your project.
 
-### `yarn test`
+```html
+<link rel="stylesheet" href="https://mind-ui-library.netlify.app/mind-ui.css">"/>
+```
+OR
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Use the below code for importing the library in your `index.css` file directly.
 
-### `yarn build`
+```css
+@import url("https://mind-ui-library.netlify.app/mind-ui.css");
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+- HTML
+- CSS
+- JavaSript
+- React Js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Run Application
+- Clone the repository
+- Run npm install to install required dependencies
+- Finally, run npm start to run the application and open the browser to view the site on localhost.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 👤 **Jaynil Gaglani**
+- Portfolio: [jaynil.gaglani](https://bit.ly/jaynil-profile)
+- Linkedin: [Jaynil Gaglani](https://www.linkedin.com/in/jaynilgaglani/)
+- Twitter: [@Jaynil1611](https://twitter.com/Jaynil_Gaglani)
+- Github: [@Jaynil1611](https://github.com/Jaynil1611)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Show your support
+Give a ⭐️ if you like this repository!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by Jaynil Gaglani
